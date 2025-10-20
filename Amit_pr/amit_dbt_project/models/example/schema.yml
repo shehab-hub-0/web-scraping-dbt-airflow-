@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: main  
+    description: "Raw data source"
+    tables:
+      - name: raw_users
+        description: "Raw users table"
+      
+      - name: raw_albums  
+        description: "Raw albums table"
+      
+      - name: raw_comments
+        description: "Raw comments table"

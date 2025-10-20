@@ -1,0 +1,9 @@
+Amit_pr:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/dags/Amit_pr/amit_dbt_project/dev.db # هنا بتحط مكان الملف اللي Python بيولده
+
+      schema: main
+      threads: 4
