@@ -7,7 +7,7 @@ import yagmail
 
 # Email config 
 sender_email = "shahbahmed56p@gmail.com"
-sender_password = "maoy ctqd phsl taao"
+sender_password = "your sender_password"
 
 recipient_email = ["shahbahmed56p@gmail.com"]
 
